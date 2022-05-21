@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link href="style.css" rel="stylesheet" media="screen" charset="utf-8">
   </head>
-  <body>
+  <body class="body">
   <div class="hero">
     <img class="hero__img" src="./eisenhower-matrix.jpg">
     <a class="hero__link"
@@ -20,29 +20,31 @@
       </div>
     </div>
     <h3 class="title">Todo</h3>
-    <ul class="current-tasks" id="current-tasks">
-      <li class="current-tasks__item">
-        <input class="checkbox" type="checkbox">
-        <label class="label">Pay Bills</label>
-        <input class="task" type="text"><button class="btn-edit">Edit</button>
-        <button class="btn-delete"><img class="btn-delete__img" src="./remove.svg"></button>
-      </li>
-      <li class="current-tasks__item current-tasks__item_edit-mode">
-        <input class="checkbox" type="checkbox">
-        <label class="label">Go Shopping</label>
-        <input class="task" type="text" value="Go Shopping"><button class="btn-edit">Save</button>
-        <button class="btn-delete"><img class="btn-delete__img" src="./remove.svg"></button>
-      </li>
-    </ul>
-    <h3>Completed</h3>
-    <ul class="completed-tasks" id="completed-tasks">
-      <li class="completed-tasks__item">
-        <input class="checkbox" type="checkbox" checked>
-        <label class="label">See the Doctor</label>
-        <input class="task" type="text"><button class="btn-edit">Edit</button>
-        <button class="btn-delete"><img class="btn-delete__img" src="./remove.svg"></button>
-      </li>
-    </ul>
+    <div class="list">
+      <ul class="current-tasks" id="current-tasks">
+        <li class="current-tasks__item">
+          <input class="checkbox" type="checkbox">
+          <label class="label">Pay Bills</label>
+          <input class="task" type="text"><button class="btn-edit">Edit</button>
+          <button class="btn-delete"><img class="btn-delete__img" src="./remove.svg"></button>
+        </li>
+        <li class="current-tasks__item current-tasks__item_edit-mode">
+          <input class="checkbox" type="checkbox">
+          <label class="label">Go Shopping</label>
+          <input class="task" type="text" value="Go Shopping"><button class="btn-edit">Save</button>
+          <button class="btn-delete"><img class="btn-delete__img" src="./remove.svg"></button>
+        </li>
+      </ul>
+      <h3>Completed</h3>
+      <ul class="completed-tasks" id="completed-tasks">
+        <li class="completed-tasks__item">
+          <input class="checkbox" type="checkbox" checked>
+          <label class="label">See the Doctor</label>
+          <input class="task" type="text"><button class="btn-edit">Edit</button>
+          <button class="btn-delete"><img class="btn-delete__img" src="./remove.svg"></button>
+        </li>
+      </ul>
+    </div>
   </div>
   <script src="app.js"></script>
   
