@@ -41,16 +41,16 @@
 }
 
 .current-tasks, .completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .current-tasks__item, .completed-tasks__item, .title {
-  list-style:none;
+  list-style: none;
 }
 
 .checkbox, .task, .btn-add, .btn-edit, .btn-delete {
-  outline:none;
+  outline: none;
 }
 
 .btn-add, .btn-edit, .btn-delete {
@@ -154,20 +154,20 @@
 
 /* Edit Task */
 .list .task[type=text] {
-  display:none
+  display: none
 }
 
 .list .current-tasks__item_edit-mode .task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .current-tasks__item_edit-mode .label {
-  display:none;
+  display: none;
 }
 
 /* Media query */
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .hero {
     text-align: center;
