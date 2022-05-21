@@ -20,12 +20,6 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-  .hero {
-    text-align: center;
-  }
-}
-
 .container {
   display: block;
   width: 500px;
@@ -37,9 +31,11 @@
   display: inline-block;
   flex-grow: 1
 }
+
 .adding-area {
   margin: 1em 0;
 }
+
 .adding-area__row {
   display: flex;
 }
@@ -168,4 +164,13 @@
 
 .current-tasks__item_edit-mode .label {
   display:none;
+}
+
+/* Media query */
+@media (max-width:768px) {
+
+  .hero {
+    text-align: center;
+  }
+
 }
