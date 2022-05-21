@@ -32,12 +32,14 @@ body {
   margin: 0 auto 0;
 }
 
-.task {
+.task, .label {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-
+.adding-area {
+  margin: 1em 0;
+}
 .adding-area__row {
   display: flex;
 }
@@ -138,13 +140,13 @@ li > input[type="text"] {
   width: 226px
 }
 
-button.delete img {
+button.btn-delete .btn-delete__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.btn-delete .btn-delete__img:hover {
   transform: rotateZ(0);
 }
 
@@ -159,11 +161,11 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.editMode input[type=text] {
+ul li.current-tasks__item_edit-mode input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul li.editMode label {
+ul li.current-tasks__item_edit-mode label {
   display:none;
 }
