@@ -81,7 +81,7 @@
 
 /* Heading */
 .title,
-.adding-area__label[for='new-task'] {
+.adding-area__label[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -109,7 +109,7 @@
 }
 
 /* New Task */
-.adding-area__label[for='new-task'] {
+.adding-area__label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
